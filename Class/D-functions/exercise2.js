@@ -5,6 +5,6 @@ function sayHello(theName){
 }
 
 // When we call the function, we give it the input value
-sayHello("Richard");
+sayHello("Colette");
 
 // Call the function again so it says hello to you!
