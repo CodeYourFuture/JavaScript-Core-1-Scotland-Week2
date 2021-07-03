@@ -4,7 +4,7 @@ ONLY CHANGE LINE 23 to answer this question
 This code has a bug - run it and see what the result is
 
 Why are we getting this result?
-
+The places of recalled arguments have been replaced.
 Please fix this code so we get the result "39"
 
 ONLY CHANGE LINE 23
@@ -20,6 +20,6 @@ let yearIWasBorn = 1982;
 let thisYear = 2021;
 
 // ONLY CHANGE CODE ON LINE 23
-let myAge = calculateAge(thisYear, yearIWasBorn);
+let myAge = calculateAge(yearIWasBorn, thisYear);
 
 console.log(myAge);
