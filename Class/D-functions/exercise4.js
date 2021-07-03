@@ -6,6 +6,7 @@ function doubleNumber(inputNumber){
 
 function tripleNumber(inputNumber){
     // Write code here so this function gives the correct result
+    return 3*inputNumber;
 }
 
 let x = 10;

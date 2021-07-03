@@ -5,7 +5,9 @@ function sayHello(){
 }
 
 // This is how we call the function
-// sayHello();
+sayHello();
+sayHello();
+sayHello();
 
 // Add code below so we print "Hello" 3 times
 
