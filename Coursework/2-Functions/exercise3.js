@@ -6,7 +6,8 @@ ONLY change the code inside the calculateArea function
 
 function calculateArea(x, y){
     // write your code here
-
+    areaValue = x * y ;
+    return areaValue;
 }
 
 let width = 5;
