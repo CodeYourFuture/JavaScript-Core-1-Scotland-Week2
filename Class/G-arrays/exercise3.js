@@ -6,6 +6,7 @@ let days = ["Monday", "Tuesday", "xxx", "Thursday", "xxx", "Saturday", "Sunday"]
 days[2] = "Wednesday";
 
 // Write code below so our array has "Friday" in the right place
+days[4] = "Friday"
 
 
 
