@@ -9,6 +9,8 @@ function sayHello(){
 
 // Add code below so we print "Hello" 3 times
 
-
+sayHello();
+sayHello();
+sayHello();
 
 

@@ -2,17 +2,17 @@
 // Currency converter
 
 // The values of currency can be GBP, EUR or USD
-let currency = "EUR";
+let currency = "GBP";
 
 let symbol = "";
 
 // Complete the "if/else" statements below so it sets the correct value for symbol
-if(){
-    symbol = "€";
-}else if(){
-    symbol = "$";
-}else if(){
-    symbol = "£";
+if(currency === "EUR"){
+   return symbol = "€";
+}else if(currency === "USD"){
+   return symbol = "$";
+}else if(currency === "GBP"){
+   return symbol = "£";
 }
 
 console.log("Currency is " + currency + ", and symbols is: " + symbol);
