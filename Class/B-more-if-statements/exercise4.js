@@ -6,5 +6,13 @@ let theYear = 2025;
 // "It is the current year"
 // "Year is in the future"
 
+if (theYear === 2021) {
+ message = "It is the current year"; 
+}else if (theYear > 2021){
+ message = "It is in the future"; 
+}else{
+ message = "It is in the past";
+}
 
+console.log(message)
 

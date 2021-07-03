@@ -1,6 +1,6 @@
 
 // Change the value of myNumber so your code prints "The number is greater than ten!"
-let myNumber = 5;
+let myNumber = 22;
 
 // This is how we write an "if" statement
 if(myNumber > 10){
