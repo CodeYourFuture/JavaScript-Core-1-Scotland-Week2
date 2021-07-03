@@ -1,5 +1,9 @@
 
 // Write your own function called addTwoNumbers
+
+function addTwoNumbers(a,b){
+    return a + b ;
+}
 // It should take two inputs
 // It should return an output, which is the value of the two inputs added together
 

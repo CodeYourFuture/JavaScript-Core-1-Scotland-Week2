@@ -4,6 +4,9 @@ function sayHello(){
     console.log("Hello");
 }
 
+sayHello();
+sayHello();
+sayHello();
 // This is how we call the function
 // sayHello();
 
