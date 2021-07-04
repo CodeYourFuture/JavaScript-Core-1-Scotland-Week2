@@ -1,7 +1,8 @@
 
 // Change the value of myRole so your code prints "Good morning, get ready to learn!"
 let myRole = "mentor";
-
+//new value
+myRole = "Trainee"
 let greeting = "Good morning, ";
 
 // Here we have an "if/else" statement
@@ -12,3 +13,4 @@ if(myRole === "student"){
 }
 
 console.log(greeting);
+console.log("both comparisons works correctly");

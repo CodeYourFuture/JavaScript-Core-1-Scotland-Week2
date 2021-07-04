@@ -5,10 +5,13 @@ function sayHello(){
 }
 
 // This is how we call the function
-// sayHello();
+console.log(sayHello());
 
 // Add code below so we print "Hello" 3 times
 
+console.log(sayHello());
+console.log(sayHello());
+console.log(sayHello());
 
 
 
