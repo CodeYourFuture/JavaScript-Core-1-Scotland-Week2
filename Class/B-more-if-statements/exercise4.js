@@ -1,5 +1,5 @@
 
-let theYear = 2025;
+let theYear = 3021;
 
 // Write an "if/else" statement below to print either - 
 // "Year is in the past"
@@ -8,3 +8,10 @@ let theYear = 2025;
 
 
 
+if(theYear < 2025){
+    console.log("Year is in the past");
+}else if(theYear === 2025) {
+    console.log("It is the current year");
+}else{
+    console.log("Year is in the future");
+}
