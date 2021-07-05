@@ -2,7 +2,7 @@
 
 function moveRocket(y){
     //y = y - 1;
-    return y;
+    return y=-1;
 }
 
 

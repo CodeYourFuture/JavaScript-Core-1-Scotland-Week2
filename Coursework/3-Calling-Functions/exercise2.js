@@ -20,6 +20,7 @@ function doubleNumber(num){
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 23
-let b = doubleNumber();
+//added function parameter when calling it
+let b = doubleNumber(a);
 
 console.log(b);

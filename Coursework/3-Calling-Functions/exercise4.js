@@ -16,6 +16,7 @@ function doubleNumber(num){
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 19
-doubleNumber(a);
+//Initialized variable a with the result from the doubleNumber function
+a = doubleNumber(a);
 
 console.log(a);

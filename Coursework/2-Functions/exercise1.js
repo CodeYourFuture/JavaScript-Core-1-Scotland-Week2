@@ -9,10 +9,12 @@ please fix this bug so we see the result is "360"
 
 function calculateAgeInMonths(ageInYears){
     let ageInMonths = ageInYears * 12;
-
+    // corrected the function so that it gives back a value using a return statement
+    
+    return ageInMonths;
 }
 
-let myAge = 30;
+let myAge = 1;
 
 let myAgeInMonths = calculateAgeInMonths(myAge);
 

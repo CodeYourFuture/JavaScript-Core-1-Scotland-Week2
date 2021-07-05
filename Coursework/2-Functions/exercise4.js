@@ -12,6 +12,10 @@ write the function
 */
 
 // write your function here
+function calculateMonthsInYear(x){
+    //multiplied 12 months by the number of years given
+    return 12 * x;
+}
 
 
 // Don't change any of the code below

@@ -18,6 +18,7 @@ function greet(name){
 let myName = "Marissa";
 
 // ONLY CHANGE CODE ON LINE 21
-let greeting = greet();
+//bug was because function was not given a parameter that it initially should have.
+let greeting = greet(myName);
 
 console.log(greeting);
