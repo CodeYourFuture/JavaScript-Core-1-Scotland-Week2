@@ -5,5 +5,9 @@
 // It should console.log a message to the user
 
 
+function sayGoodbye(myName) {
+    console.log("Goodbye " + myName)
+};
 
 sayGoodbye("Richard");
+sayGoodbye("Tara");
