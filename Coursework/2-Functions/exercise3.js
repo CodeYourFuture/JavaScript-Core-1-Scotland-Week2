@@ -5,11 +5,11 @@ ONLY change the code inside the calculateArea function
 */
 
 function calculateArea(x, y){
-    // write your code here
+    return width * height;
 
 }
 
-let width = 5;
+let width = 7;
 
 let height = 10;
 

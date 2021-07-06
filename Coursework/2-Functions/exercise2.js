@@ -1,15 +1,14 @@
 /* 
-What is the value we expect to see in the console?
+What is the value we expect to see in the console? 30
 
-What is the TYPE of error, and what LINE NUMBER does it happen at? What is the ERROR MESSAGE?
-
-Why are we getting this error?
+What is the TYPE of error, and what LINE NUMBER does it happen at? What is the ERROR MESSAGE? "y is not defined"
+Why are we getting this error? we're not passing enough parameters
 
 ONLY CHANGE the code of calculateArea function - 
 please fix this bug so we see the result is "30"
 */
 
-function calculateArea(x){
+function calculateArea(x, y){
     let areaValue = x * y;
     return areaValue;
 }
