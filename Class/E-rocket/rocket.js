@@ -1,7 +1,6 @@
 
 
-function moveRocket(y){
-    //y = y - 1;
+function moveRocket(y) {
     return y;
 }
 
@@ -12,7 +11,7 @@ let yPosition = (window.innerHeight - 250);
 rocket.style.top = yPosition + "px";
 window.setInterval(launchRocket, 10);
 
-function launchRocket(){
+function launchRocket() {
     yPosition = moveRocket(yPosition);
     rocket.style.top = yPosition + "px";
 }
