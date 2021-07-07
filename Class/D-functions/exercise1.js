@@ -1,8 +1,14 @@
 
 // Here is a simple function with no inputs and no output
-function sayHello(){
+function sayHello() {
     console.log("Hello");
 }
+
+sayHello();
+
+sayHello();
+
+sayHello();
 
 // This is how we call the function
 // sayHello();
