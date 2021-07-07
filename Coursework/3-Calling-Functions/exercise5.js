@@ -20,6 +20,7 @@ let yearIWasBorn = 1982;
 let thisYear = 2021;
 
 // ONLY CHANGE CODE ON LINE 23
-let myAge = calculateAge(thisYear, yearIWasBorn);
+let myAge = calculateAge(yearIWasBorn, thisYear);
 
 console.log(myAge);
+console.log("We need to use the parameters in the way that function specify")
