@@ -10,7 +10,7 @@ please fix this bug so we see the result is "30"
 */
 
 function calculateArea(x){
-    let areaValue = x * y;
+    let areaValue = width * height;
     return areaValue;
 }
 

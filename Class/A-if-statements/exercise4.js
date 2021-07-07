@@ -1,7 +1,7 @@
 
 // In the UK the legal driving age is 17
 
-let myAge = 18;
+let myAge = 16;
 
 let canDriveMessage = "Too young to drive";
 
