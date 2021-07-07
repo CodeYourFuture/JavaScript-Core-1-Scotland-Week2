@@ -9,9 +9,15 @@ ONLY CHANGE the code of calculateArea function -
 please fix this bug so we see the result is "30"
 */
 
-function calculateArea(x){
-    let areaValue = x * y;
-    return areaValue;
+// Answers
+/* Error y is not defined 
+Uncaught ReferenceError
+line 18
+*/
+
+function calculateArea(x, y) {
+  let areaValue = x * y;
+  return areaValue;
 }
 
 let width = 10;
