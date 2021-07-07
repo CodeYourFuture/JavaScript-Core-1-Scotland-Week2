@@ -10,7 +10,7 @@ Please fix this code so we get the result "Hello Marissa"
 ONLY CHANGE LINE 21
 */
 
-function greet(name){
+function greet(name) {
     name = "Hello " + name;
     return name;
 }
@@ -18,6 +18,6 @@ function greet(name){
 let myName = "Marissa";
 
 // ONLY CHANGE CODE ON LINE 21
-let greeting = greet();
+let greeting = greet(myName);
 
 console.log(greeting);

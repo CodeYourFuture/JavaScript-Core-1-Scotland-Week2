@@ -8,7 +8,7 @@ Please change this code so we get the result 10
 ONLY CHANGE LINE 19
 */
 
-function doubleNumber(num){
+function doubleNumber(num) {
     num = num * 2;
     return num;
 }
@@ -16,6 +16,6 @@ function doubleNumber(num){
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 19
-doubleNumber(a);
+a = doubleNumber(a);
 
 console.log(a);

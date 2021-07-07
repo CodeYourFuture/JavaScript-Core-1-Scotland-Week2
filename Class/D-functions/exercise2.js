@@ -1,6 +1,6 @@
 
 // Here we define a function which takes one input: theName
-function sayHello(theName){
+function sayHello(theName) {
     console.log("Hello " + theName);
 }
 
@@ -8,3 +8,5 @@ function sayHello(theName){
 sayHello("Richard");
 
 // Call the function again so it says hello to you!
+sayHello("Ben");
+sayHello("to you");
