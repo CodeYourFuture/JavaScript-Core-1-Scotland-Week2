@@ -2,16 +2,16 @@
 // Currency converter
 
 // The values of currency can be GBP, EUR or USD
-let currency = "EUR";
+let currency = "POUND";
 
 let symbol = "";
 
 // Complete the "if/else" statements below so it sets the correct value for symbol
-if(){
+if(currency==="EUR"){
     symbol = "€";
-}else if(){
+}else if(currency==="DOLAR"){
     symbol = "$";
-}else if(){
+}else if(currency==="POUND"){
     symbol = "£";
 }
 

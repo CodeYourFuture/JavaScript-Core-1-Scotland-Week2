@@ -4,10 +4,17 @@ We have written code below that does the same thing 3 times.
 We should REFACTOR this code.
 
 We should write a function, and call the function 3 times.
-
 The results should stay THE SAME
 */
+function greeting (firstName, surname){
+    let greetings = "Hello "+firstName+" "+surname;
+    return console.log(greetings);
+}
+greeting("Katrina","Lake");
+greeting("Eric","Yuan");
+greeting("Jeff","Bezos");
 
+/*
 let firstName1 = "Katrina";
 let surname1 = "Lake";
 // Change the line below to call your function!
@@ -26,3 +33,4 @@ let greeting3 = "Hello " + firstName3 + " " + surname3;
 console.log(greeting1);
 console.log(greeting2);
 console.log(greeting3);
+*/
