@@ -8,6 +8,11 @@ We should write a function, and call the function 3 times.
 The results should stay THE SAME
 */
 
+function greeting(){
+    let greeting = firstName1;
+    return greeting;
+}
+
 let firstName1 = "Katrina";
 let surname1 = "Lake";
 // Change the line below to call your function!
