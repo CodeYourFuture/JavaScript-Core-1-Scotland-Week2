@@ -15,7 +15,7 @@ function moveBall(){
      }
 
     if(positionY > screenHeight || positionY < 0){
-         speedY *= -1;
+    speedY *= -1;
      }
 }
 
