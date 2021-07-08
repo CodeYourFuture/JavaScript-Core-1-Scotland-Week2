@@ -9,8 +9,8 @@ ONLY CHANGE LINE 19
 */
 
 function doubleNumber(num){
-   // num = num * 2;
-    return num * 2;
+    num = num * 2;
+    return num;
 }
 
 let a = 5;

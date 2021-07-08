@@ -16,14 +16,17 @@ function message(firstName,surname){
 let firstName1 = "Katrina";
 let surname1 = "Lake";
 // Change the line below to call your function!
-message("Katrina","Lake");
+//message("Katrina","Lake"); I changed this code to the following code.
+message(firstName1,surname1);
 
 let firstName2 = "Eric";
 let surname2 = "Yuan";
 // Change the line below to call your function!
-message("Eric","Yuan");
+//message("Eric","Yuan"); I changed this code to the following code.
+message(firstName2,surname2);
 
 let firstName3 = "Jeff";
 let surname3 = "Bezos";
 // Change the line below to call your function!
-message("Jeff","ezos");
+//message("Jeff","ezos"); I changed this code to the following code.
+message(firstName3,surname3);
