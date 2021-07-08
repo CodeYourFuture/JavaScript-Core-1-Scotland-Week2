@@ -12,7 +12,9 @@ write the function
 */
 
 // write your function here
-
+function calculateMonthsInYear(years) {
+  return 12 * years;
+}
 
 // Don't change any of the code below
 let years = 5;
