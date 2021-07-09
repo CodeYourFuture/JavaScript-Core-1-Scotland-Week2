@@ -12,14 +12,15 @@ Please fix this code so we get the result 10
 ONLY CHANGE LINE 23
 */
 
-function doubleNumber(num){
-    num = num * 2;
-    return num;
+let question1 = " an empty round bracket means the outcome is a string.";
+function doubleNumber(num) {
+  num = num * 2;
+  return num;
 }
 
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 23
-let b = doubleNumber();
+let b = doubleNumber(a);
 
 console.log(b);
