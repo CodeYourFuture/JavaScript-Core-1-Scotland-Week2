@@ -4,9 +4,10 @@ In this exercise, you have to write the code for the function!
 ONLY change the code inside the calculateArea function
 */
 
-function calculateArea(x, y){
-    // write your code here
-
+function calculateArea(x, y) {
+  // write your code here
+  result = x / y;
+  return result;
 }
 
 let width = 5;
