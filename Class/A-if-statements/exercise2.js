@@ -5,7 +5,7 @@ let myRole = "mentor";
 let greeting = "Good morning, ";
 
 // Here we have an "if/else" statement
-if(myRole === "student"){
+if(myRole === "mentor"){
     greeting = greeting + "get ready to learn!";
 }else{
     greeting = greeting + "get ready to teach!";

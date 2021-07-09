@@ -7,6 +7,6 @@ days[2] = "Wednesday";
 
 // Write code below so our array has "Friday" in the right place
 
-
+days[4] = "Friday";
 
 console.log("5th day of the week is: " + days[4]);
