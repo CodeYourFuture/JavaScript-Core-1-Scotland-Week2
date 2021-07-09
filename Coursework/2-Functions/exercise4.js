@@ -13,8 +13,20 @@ write the function
 
 // write your function here
 
-
 // Don't change any of the code below
+let question1 = " The name of the function is 'calculateMonthsInYear'";
+console.log(question1);
+
+let input = " We need one parameter";
+console.log(input);
+
+let result = " number of months equivalent to 5 years.";
+console.log(result);
+
+function calculateMonthsInYear(num) {
+  totalMonths = num * 12;
+  return totalMonths;
+}
 let years = 5;
 
 let months = calculateMonthsInYear(years);
