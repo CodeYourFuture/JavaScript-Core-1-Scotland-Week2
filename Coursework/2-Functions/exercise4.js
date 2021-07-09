@@ -10,7 +10,9 @@ What is the result we need to return?
 To complete this exercise you ONLY need to
 write the function
 */
-
+function calculateMonthsInYear(years){
+    return 12* years;
+}
 // write your function here
 
 
