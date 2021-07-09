@@ -4,6 +4,8 @@
 // It should take one input
 // It should console.log a message to the user
 
+function sayGoodbye(theName) {
+    console.log("Goodbye " + theName);
+}
 
-
-sayGoodbye("Richard");
+sayGoodbye("Benjamin");
