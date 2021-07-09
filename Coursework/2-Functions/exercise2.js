@@ -8,10 +8,21 @@ Why are we getting this error?
 ONLY CHANGE the code of calculateArea function - 
 please fix this bug so we see the result is "30"
 */
+let question1 =
+  " I expected to see error as we have only one parameter, x in function";
+console.log(question1);
 
-function calculateArea(x){
-    let areaValue = x * y;
-    return areaValue;
+let question2 =
+  "we have one instead of two,line 16 inside the function, 'y is not defined'";
+console.log(question2);
+
+let question3 =
+  "We used one parameter and declared two parameters which are different to function parameters";
+console.log(question3);
+
+function calculateArea(x, y) {
+  let areaValue = x * y;
+  return areaValue;
 }
 
 let width = 10;
