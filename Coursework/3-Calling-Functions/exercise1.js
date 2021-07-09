@@ -10,14 +10,18 @@ Please fix this code so we get the result "Hello Marissa"
 ONLY CHANGE LINE 21
 */
 
-function greet(name){
-    name = "Hello " + name;
-    return name;
+let question1 =
+  " I am getting the answer 'Hello undefined' because when declaring my function I left an empty where I should have put the value of parameter .";
+console.log(question1);
+
+function greet(name) {
+  name = "Hello " + name;
+  return name;
 }
 
 let myName = "Marissa";
 
 // ONLY CHANGE CODE ON LINE 21
-let greeting = greet();
+let greeting = greet(myName);
 
 console.log(greeting);
