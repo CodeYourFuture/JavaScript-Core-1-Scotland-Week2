@@ -8,3 +8,4 @@ function sayHello(theName){
 sayHello("Richard");
 
 // Call the function again so it says hello to you!
+sayHello("Omer");

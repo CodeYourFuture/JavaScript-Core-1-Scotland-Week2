@@ -12,11 +12,15 @@ write the function
 */
 
 // write your function here
+function calculateMonthsInYear(years)
+{
 
+return MonthsInYear * years;
+}
 
 // Don't change any of the code below
 let years = 5;
-
+let MonthsInYear = 12;
 let months = calculateMonthsInYear(years);
 
 console.log(months);
