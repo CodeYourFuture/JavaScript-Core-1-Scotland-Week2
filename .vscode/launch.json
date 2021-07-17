@@ -5,6 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         
+<<<<<<< HEAD
+        
+=======
+>>>>>>> fc1ec8c13599a311ade878caed5684a719cfa1ca
         {
             "type": "pwa-node",
             "request": "launch",

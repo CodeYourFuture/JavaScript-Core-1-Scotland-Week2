@@ -11,7 +11,10 @@ To complete this exercise you ONLY need to
 write the function
 */
 
-// write your function here
+function calculateMonthsInYear(years) {
+    let MonthsInYear = years * 12;
+    return  MonthsInYear;
+}
 
 
 // Don't change any of the code below

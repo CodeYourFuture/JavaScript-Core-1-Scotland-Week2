@@ -16,6 +16,8 @@ function doubleNumber(num){
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 19
+
 let b = doubleNumber(a);
+doubleNumber(a);
 
 console.log(b);
