@@ -5,6 +5,7 @@ function doubleNumber(inputNumber){
 }
 
 function tripleNumber(inputNumber){
+    return inputNumber * 3;
     // Write code here so this function gives the correct result
 }
 

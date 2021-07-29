@@ -7,6 +7,8 @@ let message = "Yes";
 // if today is NOT Tuesday
 
 
-
+if (today !== "Tuesday") {
+    message = "No";
+}
 
 console.log("Is today Tuesday? " + message);
